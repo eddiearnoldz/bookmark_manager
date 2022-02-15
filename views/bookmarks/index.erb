@@ -1,5 +1,17 @@
+<head>
+<style>
+li {
+  list-style-type: none;
+}
+</style>
+
+</head>
 <ul>
   <% @bookmarks.each do |bookmark| %>
-    <li><%= bookmark %></li>
+    <li>
+      <a href="<%= bookmark.url %>">
+        <%= bookmark.title %>
+      </a>
+    </li>
   <% end %>
 </ul>
