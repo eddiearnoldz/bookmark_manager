@@ -8,6 +8,7 @@ This is a bookmark manager for people
 - Create the database using the psql command `CREATE DATABASE bookmark_manager;`
 - Connect to the database using the pqsl command `\c bookmark_manager;`
 - Run the query we have saved in the file 01_create_bookmarks_table.sql
+- To add the extra title column run the query in this file 02_add_title_to_bookkmarks.sql
 
 # Installing the test database
 - Connect to psql
@@ -15,6 +16,7 @@ This is a bookmark manager for people
 - Connect to the database using the pqsl command `\c bookmark_manager_test;`
 - run the command `CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));` to create a table
 - Run the query we have saved in the file 01_create_bookmarks_table.sql
+- To add the extra title column run the query in this file 02_add_title_to_bookkmarks.sql
 
 ## Installation
 ----------------------
